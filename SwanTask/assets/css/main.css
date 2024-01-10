@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header #headerSection {
+  width: 100%;
+  height: 170px;
+  background-color: #1C1C1C;
+  padding-top: 20px;
+  position: relative;
+}
+header #headerSection .container #sectionContact {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+header #headerSection .container #sectionContact .contact {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+header #headerSection .container #sectionContact .contact .mailContact {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+header #headerSection .container #sectionContact .contact .mailContact .mailText h6 {
+  color: #999999;
+}
+header #headerSection .container #sectionContact .contact .mailContact .mailText p {
+  color: white;
+}
+header #headerSection .container #sectionContact .contact .mailContact .mailIcon {
+  padding: 20px;
+  border: 1px solid #999999;
+  border-radius: 50%;
+  background-color: #1F1F1F;
+}
+header #headerSection .container #sectionContact .contact .mailContact .mailIcon i {
+  color: #698BEF;
+}
+header #headerSection .container #sectionContact .contact .phoneContact {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+header #headerSection .container #sectionContact .contact .phoneContact .phoneText h6 {
+  color: #999999;
+}
+header #headerSection .container #sectionContact .contact .phoneContact .phoneText p {
+  color: white;
+}
+header #headerSection .container #sectionContact .contact .phoneContact .phoneIcon {
+  padding: 20px;
+  border: 1px solid #999999;
+  border-radius: 50%;
+  background-color: #1F1F1F;
+}
+header #headerSection .container #sectionContact .contact .phoneContact .phoneIcon i {
+  color: #698BEF;
+}
+header #headerSection .container #sectionNavbar {
+  position: absolute;
+  width: 80%;
+  bottom: -30px;
+}
+header #headerSection .container #sectionNavbar .navbar {
+  border-radius: 5px;
+}
+header #headerSection .container #sectionNavbar .navbar .getQuote a {
+  padding: 10px 25px;
+  background-color: #698BEF;
+  color: white;
+  border-radius: 2px;
+}
+
+main #letGetStarted {
+  width: 100%;
+  height: 100%;
+  background-image: url(https://htmlbeans.com/html/swan/images/img05.jpg);
+  background-size: cover;
+}
+main #letGetStarted .container {
+  display: flex;
+  height: 100%;
+  align-items: end;
+}
+main #letGetStarted .container .letGetStartedContent {
+  width: 100%;
+  height: 75%;
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main #letGetStarted .container .letGetStartedContent .letGetStartedText {
+  width: 50%;
+  height: 80%;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+main #letGetStarted .container .letGetStartedContent .letGetStartedText p {
+  color: white;
+  font-weight: 600;
+}
+main #letGetStarted .container .letGetStartedContent .letGetStartedText h1 {
+  letter-spacing: 3px;
+  color: white;
+}
+main #letGetStarted .container .letGetStartedContent .letGetStartedText h1 p {
+  color: #698BEF;
+}
+main #letGetStarted .container .letGetStartedContent .letGetStartedText a {
+  width: 30%;
+  height: 15%;
+  background-color: #698BEF;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+main #letGetStarted .container .letGetStartedContent .letGetStartedForm {
+  width: 40%;
+  height: 95%;
+  background-color: white;
+}

@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    #headerSection {
+        width: 100%;
+        height: 170px;
+        background-color: #1C1C1C;
+        padding-top: 20px;
+        position: relative;
+
+        .container {
+
+           #sectionContact {
+            width: 100%;
+            height: 60%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 20px;
+            
+
+            .contact {
+                display: flex;
+                gap: 30px;
+                align-items: center;
+
+                .mailContact {
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+
+                    .mailText {
+                        h6 {
+                            color: #999999;
+                        }
+
+                        p {
+                            color: white;
+                        }
+                    }
+
+                    .mailIcon {
+                        padding: 20px;
+                        border: 1px solid #999999;
+                        border-radius: 50%;
+                        background-color: #1F1F1F;
+
+                         i {
+                            color: #698BEF;
+                         }
+                    }
+                }
+
+                .phoneContact {
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+
+                    .phoneText {
+                        h6 {
+                                color: #999999;
+                        }
+                        p {
+                            color: white;
+                        }
+                    }
+
+                    .phoneIcon {
+                        padding: 20px;
+                        border: 1px solid #999999;
+                        border-radius: 50%;
+                        background-color: #1F1F1F;
+
+                        i {
+                            color: #698BEF;
+                         }
+                    }
+                }
+            }
+        } 
+
+
+        #sectionNavbar {
+            position: absolute;
+            width: 80%;
+            bottom: -30px;
+            .navbar {
+                border-radius: 5px;
+
+                .getQuote {
+                    a {
+                        padding: 10px 25px;
+                        background-color: #698BEF;
+                        color: white;
+                        border-radius: 2px;
+                    }
+                }
+            }
+        }
+        }
+
+        
+    }
+
+}
+
+
+main {
+    #letGetStarted {
+        width: 100%;
+        height: 100%;
+         background-image: url(https://htmlbeans.com/html/swan/images/img05.jpg);
+        background-size: cover;
+
+        .container {
+            display: flex;
+            height: 100%;
+            align-items: end;
+
+            .letGetStartedContent {
+                width: 100%;
+                height: 75%;
+                background-color: aqua;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+
+                .letGetStartedText {
+                    width: 50%;
+                    height: 80%;
+                    background-color: red;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+
+                    p {
+                        color: white;
+                        font-weight: 600;
+                    }
+
+
+                    h1 {
+                        letter-spacing: 3px;
+                        color: white;
+
+                        p {
+                            color: #698BEF;
+                        }
+                    }
+
+                    a {
+                        width: 30%;
+                        height: 15%;
+                        background-color: #698BEF;
+                        text-decoration: none;
+                        color: white;display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-weight: 600;
+                    }
+
+                }
+
+                .letGetStartedForm {
+                    width: 40%;
+                    height: 95%;
+                    background-color: white;
+                }
+            }
+        }
+    }
+}
